@@ -25,8 +25,8 @@ ul > li > ul > li {
 }
 
 p > img {
-    width: 9%;
-    height: 9%;
+    width: 15%;
+    height: 15%;
     object-fit: contain;
     border: 5px solid black;
 }
