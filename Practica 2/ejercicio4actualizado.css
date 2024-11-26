@@ -1,0 +1,66 @@
+/* Estilo para todo el documento */
+* {
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* Título principal */
+h1 {
+    font-size: 40px;
+    color: red;
+}
+
+/* Fondo gris */
+.fondo {
+    background-color: #8f8f8f;
+}
+
+/* Título de Trabajador 1 */
+.trabajador1 {
+    text-align: center;
+    color: rgb(0, 0, 235);
+    font-size: 30px;
+}
+
+/* Título de Trabajador 2 */
+.trabajador2 {
+    text-align: center;
+    color: rgb(0, 146, 0);
+    font-size: 30px;
+}
+
+/* Recuadro negro */
+.recuadros {
+    border: 3px solid black;
+}
+.recuadrito1 {
+    border: 3px solid black;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+ 
+.recuadrito2 {
+    border: 3px solid black;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+/* Negrita para Datos personales y Estudios */
+.datos{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Subrayado para Nombre, Email y Teléfono */
+.subrayado span {
+    text-decoration: underline;
+}
+
+/* Estilo de listas no ordenadas con viñetas */
+ul {
+    list-style-type: disc;
+    font-size: 20px;
+}

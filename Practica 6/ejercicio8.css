@@ -1,0 +1,59 @@
+body {
+    background-color: #eeeeee;
+    color: black;
+    text-align: justify;
+    font-family: Sans-serif;
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    color: #333333;
+    font-size: 200%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    background-color: #888888;
+    color: red;
+    font-size: 150%;
+    text-transform: capitalize;
+}
+
+h3 {
+    background-color: #aaaaaa;
+    color: darkmagenta;
+    font-size: 130%;
+}
+
+p {
+    background-color: #cccccc;
+    line-height: 150%;
+}
+
+.borde {
+    border-bottom: 2px solid #000000;
+    margin: 20px 0;
+}
+
+address {
+    background-color: white;
+    font-style: normal;
+    text-align: right;
+}
+
+em {
+    color: green;
+    font-style: normal;
+}
+
+strong {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: normal;
+}
