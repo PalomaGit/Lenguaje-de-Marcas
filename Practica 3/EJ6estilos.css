@@ -1,0 +1,62 @@
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    background-color: #666;
+    color: white;
+}
+
+
+.facebook td {
+    background: linear-gradient(to bottom, orange, blue);
+}
+
+td {
+    background: linear-gradient(to bottom, orange, purple);
+}
+
+tbody tr {
+    background: linear-gradient(to bottom, blue, cyan);
+}
+
+tbody tr {
+    background: linear-gradient(to bottom, purple, yellow);
+}
+
+tbody tr {
+    background: linear-gradient(to bottom, cyan, lime);
+}
+
+tbody tr {
+    background: linear-gradient(to bottom, yellow, lime);
+}
+
+/* Image sizes */
+img {
+    width: 178px;
+    height: 147px;
+}

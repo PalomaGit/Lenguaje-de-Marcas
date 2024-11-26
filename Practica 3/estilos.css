@@ -1,0 +1,56 @@
+/*fuente documento*/
+* {
+    font-family: "Times New Roman", Times, serif;
+    color: #000;
+    font-size: 16px;
+}
+
+/*h1*/
+h1 {
+    color: #333;
+    font-size: 20px;
+}
+
+/*h2*/
+h2 {
+    color: #666;
+}
+
+/* Imagen con tamaño específico */
+img {
+    width: 400px;
+    height: 200px;
+}
+
+/*tabla*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #666;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    padding: 10px;
+    text-align: left;
+}
+
+tfoot td {
+    background-color: #ccc;
+    color: #000;
+    padding: 10px;
+}
+
+/*enlace*/
+a {
+    color: blue;
+    text-decoration: underline;
+}
