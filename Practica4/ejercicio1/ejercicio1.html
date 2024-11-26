@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueva Incidencia - C.P.I.F.P. Alan Turing</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <header> <img src="IAT-LOGOTIPO.jpg" alt="Logo del Centro Alan Turing" class="logo"> </header>
+        <main>
+            <form action="procesarincidencia.php" method="post" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Nueva incidencia</legend>
+                    <div class="form-group"> <label for="profesor">Profesor *:</label> <input type="text" id="profesor"
+                            name="profesor" placeholder="Escribe tu nombre aquí." required>
+                    </div>
+                    <div class="form-group"> <label for="correo">Correo electrónico *:</label> <input type="email"
+                            id="correo" name="correo" placeholder="Escribe tu correo aquí." required>
+                    </div>
+                    <div class="form-group"> <label for="departamento">Departamento *:</label> <select id="departamento"
+                            name="departamento" required>
+                            <option value="Informatica">Informática</option>
+                        </select>
+                    </div>
+                    <div class="form-group"> <label for="aula">Aula *:</label> <input type="number" id="aula"
+                            name="aula" placeholder="Indica aquí el aula de la incidencia." required>
+                    </div>
+                    <div class="form-group"> <label for="dia">Día de la incidencia *:</label> <input type="date"
+                            id="dia" name="dia" placeholder="dd/mm/aaaa" required>
+                    </div>
+                    <div class="form-group"> <label for="hora">Hora de la incidencia *: </label> <input type="time"
+                            id="hora" name="hora" placeholder="--:--" required>
+                    </div>
+                    <div class="form-group"> <label for="descripcion">Descripción de la incidencia *:</label> <textarea
+                            id="descripcion" name="descripcion" placeholder="Describe aquí la incidencia."
+                            required></textarea>
+                    </div>
+                    <div class="form-group"> <label for="imagen">Imagen de la incidencia (opcional):</label> <input
+                            type="file" id="imagen" name="imagen">
+                    </div>
+                    <div class="botones"> <button type="submit">Enviar incidencia</button> <button type="reset">Borrar
+                            formulario</button>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <h3>Síguenos</h3>
+            <div class="redes-sociales"> <a href="https://www.facebook.com/centro" target="_blank"> <img
+                        src="icons8-facebook-48.png" alt="Facebook" width="48" height="48"> </a> <a
+                    href="https://www.twitter.com/centro" target="_blank"> <img src="icons8-twitter-48.png"
+                        alt="Twitter" width="48" height="48"> </a> <a href="https://www.instagram.com/centro"
+                    target="_blank"> <img src="icons8-instagram-48.png" alt="Instagram" width="48" height="48"> </a> <a
+                    href="https://www.youtube.com/centro" target="_blank"> <img src="icons8-youtube-48.png"
+                        alt="YouTube" width="48" height="48"> </a> <a href="https://www.centro.com" target="_blank">
+                    <img src="icons8-website-48.png" alt="Página web" width="48" height="48"> </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
