@@ -1,0 +1,54 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form textarea, form select {
+    padding: 10px;
+    border: 1px solid #d4a373;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #d4a373;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f4d160;
+    color: #333;
+}
+
+.float-izq {
+    width: 200px;
+    height: 250px;;
+    float: left;
+    margin-right: 10px;
+}
+
+.float-drch {
+    width: 200px;
+    height: 250px;
+    float: right;
+    margin-left: 10px;
+}
+
+body {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#opacidad {
+    opacity: 0.8;
+    background-color: #d4a373;
+    padding: 3%;
+    color: white;
+    text-align: center;
+}

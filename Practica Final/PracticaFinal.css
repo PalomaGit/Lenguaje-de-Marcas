@@ -1,0 +1,222 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f9f4ef;
+    color: #333;
+    margin: 0;
+}
+.margenizq {
+    margin-left: 10px;
+}
+.margendch {
+    margin-right: 10px;
+}
+
+header {
+    background-color: #d4a373;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+footer {
+    color: black;
+    text-align: right;
+    font-size: 11px;
+    font-weight:bold;
+    padding-top: 0.05%;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #f4d160;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #d4a373;
+}
+
+.redes {
+    font-weight: bold;
+    text-decoration:underline;
+
+}
+
+.multimedia {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Alinea los elementos verticalmente al centro */
+    font-style: italic ;
+}
+
+/* pa los autores */
+.autores-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+a {
+    text-decoration: none; /* quitar el subrayado q te trae un enlace por defecto*/
+    color: inherit; /* cambiar el color del enlace*/
+}
+a:hover {
+    color: #d4a373; 
+}
+/* primero ocultamos el audio pa despues activarlo */
+.audio {
+    display: none;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f9f4ef;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.audio:target {
+    display: block ; /* el audio aparece solamente cuando se pulsa en el fragmento.... */
+}
+
+
+.autor {
+    border: 2px solid #d4a373;
+    border-radius: 10px;
+    background: #f9f4ef;
+    padding: 20px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+.autor img { 
+    width: 250px; /* Ajusta el tamaño */
+    height: 300px; /* Ajusta el tamaño */
+    object-fit: cover; /* Recorta la imagen si es necesario, manteniendo proporciones */
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}    
+
+.autor audio {
+    width: 100%;
+    margin-top: 15px; 
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.autor:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.autor h3 {
+    color: #5a4036;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.autor p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.autor table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.autor table th, .autor table td {
+    border: 1px solid #d4a373;
+    padding: 10px;
+    text-align: left;
+}
+
+.autor table th {
+    background: #d4a373;
+    color: #fff;
+}
+
+.autor table td {
+    background: #fff;
+}
+
+.autores-lista ul {
+    list-style: none;
+    padding: 0;
+}
+
+.autores-lista li {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #d4a373;
+    border-radius: 10px;
+    background-color: #f9f4ef;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.autores-lista li h3 {
+    margin: 0;
+    color: #d4a373;
+    font-size: 1.4em;
+}
+
+.autores-lista li p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #333;
+}
+
+/*tablitas dentro d cada autor */
+.autor table th, .autor table td {
+    border: 1px solid #d4a373;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px; 
+}
+
+/* img d la galería */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.galeria .autor {
+    text-align: center;
+    margin: 10px;
+}
+
+.galeria img { 
+    width: 200px; /* Ajusta el tamaño a tus necesidades */
+    height: 250px; /* Ajusta el tamaño a tus necesidades */
+    object-fit: cover; /* Recorta la imagen si es necesario, manteniendo proporciones */
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.1);
+}
+
+.galeria h3 {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #333;
+}

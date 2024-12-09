@@ -1,0 +1,105 @@
+.autores-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.autores-lista ul {
+    list-style: none;
+    padding: 0;
+}
+
+.autores-lista li {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #d4a373;
+    border-radius: 10px;
+    background-color: #f9f4ef;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.autores-lista li h3 {
+    margin: 0;
+    color: #d4a373;
+    font-size: 1.4em;
+}
+
+.autores-lista li p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #333;
+}
+
+.autor {
+    border: 2px solid #d4a373;
+    border-radius: 10px;
+    background: #f9f4ef;
+    padding: 20px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.autor img { 
+    width: 250px; /* Ajusta el tamaño */
+    height: 300px; /* Ajusta el tamaño */
+    object-fit: cover; /* Recorta la imagen si es necesario, manteniendo proporciones */
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}    
+
+.autor:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.autor h3 {
+    color: #5a4036;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.autor p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.autor table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/*tablitas dentro d cada autor */
+.autor table th, .autor table td {
+    border: 1px solid #d4a373;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px; 
+}
+
+.autor table th {
+    background: #d4a373;
+    color: #fff;
+}
+
+.autor table td {
+    background: #fff;
+}
+
+.autor audio {
+    width: 100%;
+    margin-top: 15px; 
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
