@@ -1,56 +1,94 @@
 <!DOCTYPE html>
 <html>
+<!-- Indica que el documento está escrito en HTML5 -->
 
 <head>
     <meta charset="UTF-8">
+    <!-- Especifica la codificación de caracteres como UTF-8, permitiendo usar caracteres especiales -->
     <title>Práctica Final</title>
+    <!-- Define el título de la página que se mostrará en la pestaña del navegador -->
     <link rel="stylesheet" href="base.css">
+    <!-- Vincula una hoja de estilos CSS externa llamada base.css -->
     <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Define el favicon de la página, un ícono que se muestra en la pestaña -->
 </head>
 
 <body>
+    <!-- Contenido principal de la página -->
     <header>
+        <!-- Define el encabezado de la página -->
         <h1>Mi biblioteca</h1>
+        <!-- Título principal de la página -->
         <p>Un lugar donde almaceno los autores y libros más relevantes para mi.</p>
+        <!-- Breve descripción del propósito de la página -->
     </header>
 
     <nav class="fijo">
+        <!-- Barra de navegación con la clase "fijo" para estilos específicos -->
         <ul>
+            <!-- Lista no ordenada de enlaces -->
             <li><a href="PracticaFinal.html">Inicio</a></li>
+            <!-- Enlace a la página de inicio -->
             <li><a href="autoras.html">Autores</a></li>
+            <!-- Enlace a la página de autores -->
             <li><a href="galeria.html">Galería</a></li>
+            <!-- Enlace a la página de galería -->
             <li><a href="multimedia.html">Videos</a></li>
+            <!-- Enlace a la página de videos -->
             <li><a href="formulario.html">Formulario</a></li>
+            <!-- Enlace a la página de formulario -->
         </ul>
     </nav>
 
     <section class="margenizq">
+        <!-- Sección con la clase "margenizq" para aplicar un margen a la izquierda -->
         <h2>Bienvenidos</h2>
+        <!-- Título secundario de la sección -->
         <p>
+            <!-- Párrafo que contiene información personal -->
             Mi nombre es Paloma y vengo de hacer Bachillerato Tecnológico en Estepona. Elegí DAW un poco por
             las salidas, y ha terminado obsesionándome.
             En esta humilde página que he creado, convergen la filosofía, la profundidad poética y la creatividad
             literaria.
         </p>
     </section>
+    
     <hr>
+    <!-- Línea horizontal para separar secciones -->
+    
     <h2 class="margenizq">Mis redes:</h2>
+    <!-- Título secundario para la sección de redes sociales -->
+    
     <ol class="redes">
+        <!-- Lista ordenada con la clase "redes" para aplicar estilos específicos -->
         <li><a href="https://www.instagram.com/palomawtf/?hl=es">Instagram</a></li>
+        <!-- Enlace al perfil de Instagram -->
         <li><a href="https://open.spotify.com/user/wtfpaloma?si=1d6a4395dcc44bc7">Spotify</a></li>
+        <!-- Enlace al perfil de Spotify -->
     </ol>
+    
     <hr>
+    <!-- Línea horizontal para separar secciones -->
+    
     <div>
+        <!-- Contenedor para el mapa embebido -->
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.7367327266124!2d-5.150789884936967!3d36.42818378004168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b9c82b37762cb%3A0xc7ebdfc96db3a187!2sEstepona%2C%20M%C3%A1laga%2C%20Spain!5e0!3m2!1sen!2ses!4v1700000000000!5m2!1sen!2ses"
             width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+            <!-- Mapa embebido de Google Maps con:
+                 - src: URL del mapa
+                 - width y height: dimensiones del mapa
+                 - style="border:0;": elimina el borde
+                 - allowfullscreen: permite vista en pantalla completa
+                 - loading="lazy": carga el mapa de forma diferida -->
         </iframe>
     </div>
 
     <footer class="margendch">
+        <!-- Pie de página con la clase "margendch" para aplicar estilos específicos -->
         <p>Paloma Ocaña Piña 1ºDAW</p>
+        <!-- Texto del pie de página con el nombre y curso del autor -->
     </footer>
-
 </body>
 
 </html>

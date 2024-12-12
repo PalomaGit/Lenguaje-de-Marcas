@@ -6,7 +6,7 @@ form {
     margin: 0 auto;
 }
 
-form input, form textarea, form select {
+form input, form textarea {
     padding: 10px;
     border: 1px solid #d4a373;
     border-radius: 5px;

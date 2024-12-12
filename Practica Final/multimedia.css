@@ -6,16 +6,3 @@
     justify-content: center;
     font-style: italic ;
 }
-
-.audio {
-    display: none;
-    width: 100%;
-    margin-top: 20px;
-    background-color: #f9f4ef;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.audio:target {
-    display: block;
-}
